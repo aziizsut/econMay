@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>National Innovation Systems, Economic Complexity, and Economic Growth</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="" />
+    <meta name="date" content="2019-05-23" />
+    <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="tue.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# National Innovation Systems, Economic Complexity, and Economic Growth
+## Economic Group Meeting - May 2019
+<html>
+<div style="float:left">
+
+</div>
+<hr color='#DC143C' size=2px width=750px>
+</html>
+### 2019-05-23
+
+---
+
+
+# Discussion Materials
+
+--
+.pull-left[
+Our __main paper__ to discuss for this meeting
+
+![National Innovation Systems](https://i.ibb.co/m4Dk9KS/paper.png)
+]
+
+--
+
+.pull-right[
+__Sort of__ update on the classic 1992 Evolutinary Economics Book by Nelson and Winter
+!["Nelson, et.al(2019)"](https://target.scene7.com/is/image/Target/GUEST_207d7d27-4d15-4079-a391-5667b030482e?wid=488&amp;hei=488&amp;fmt=pjpeg)
+]
+---
+# Motivation for the Paper Discussion
+
+This is a nice paper that discuss the correlation between National Innovation System (NIS) toward the Economic Growth. It also compare the impact of the NIS and the Economic Complexity Index (ECI) on Economic Growth.
+
+--
+1.  It uses __Patent Data__ ... *I know some of us really like this* 😄
+
+2.  Always a nice discussion to see the impact of a certain indicator to the Economic Growth
+
+3.  I think there are potential avenues to __connect__ it with the Sustainability transition and Development studies which are also compelling for many of us
+
+4.  It discuss the merit of Hidalgo and Haussman ECI 
+
+5.  It also links quite well with the new Edition of the Evolutionary Economics book (especially __chapter 5 and 6__)
+
+---
+# Paper Introduction
+
+
+
+---
+# Research Methods - Variables
+
+The __five__ NIS variables are those that were identified and used in the country-panel analysis of Lee (2013), and several of them have been previously introduced in early studies, such as those of Jaffe et al. (1993), Trajtenberg et al. (1997), and Hall et al. (2001). 
+
++ __Localization of knowledge creation and diffusion__ this study measures the degree of localization of knowledge creation and diffusion in a country by considering the difference between the probability of one country’s patents citing its own patents and the probability of the rest of the world’s patents citing that country’s patents. 
+
+`$$Localization_{x,t} = \frac{n_{x,x}}{n_{x,t}} - \frac{n_{c,x,t}}{n_{c,t}}$$`
+where `\(\frac{n_{x,x}}{n_{x,t}}\)` is the probability of `\(x\)` country’s patent citing its own patent, nxxt is the number of citations made to country `\(x\)`’s patents by its own patents granted in year `\(t\)`, `\(nxt\)` is the number of all citations made by country `\(x\)`’s patents granted in year `\(t\)`, `\(ncxt\)` is the number of citations made to country `\(x\)`’s patents by all patents except for its patents filed in year `\(t\)`, and `\(nct\)` is the number of all citations made by all patents granted in year `\(t\)` except for country `\(x\)`’s patents.
+
+---
+# Research Methods - Variables
+
++ __Patenting concentration across assignees__
+a variable that measures the degree of inventor concentration, particularly the degree of patent concentration across assignees. It is measured by __HHI__
+
+`$$HHI_{x,t} = \sum_{i \in I_x}{(\frac{N_{i,t}}{N^*_{x,t}})^2}$$`
+
+where `\(Ix\)` is the set of assignees, `\(Nit\)` is the number of patents granted by assignee `\(i\)` in year `\(t\)`, and `\(N∗xt\)` is the total number of patents granted by country `\(x\)` in year `\(t\)` excluding unassigned patents. We use `\(1–HHI\)` to express the decentralization or inverse of concentration.
+
+---
+# Research Methods - Variables
+
++ __Originality__ measures the degree to which a patent makes (backward) citations to patents from a wide range of technological classes instead of from a narrow field of technologies.
+
+`$$Originality_{x,t} = (1- \sum^{N_i}_{k=i}(\frac{NCited_{i,k}}{NCited_i})^2)_{x,t}$$`
+where `\(k\)` is the technological sector (especially US patent classification), `\(Ncitedik\)` is the number of citations made by patent `\(i\)` to patents that belong to patent class `\(k\)`, and `\(Ncitedi\)` is the total number of citations made by patent `\(i\)`.
+
+---
+# Research Methods - Variables
+
++ __Technological diversification__ measures how many diverse fields of technologies a country files patents on. Following Lee (2013), we define this variable as the ratio in percentage of the number ($N$ in the following formula) of technological classes, `\(i\)`, in which a country `\(x\)` has registered patents to a number in year `\(t\)`, __438__, which is the number of three-digit classes in the US patent classification system until 2016.
+
+`$$Diversification_{x,t} = (\frac{N_i}{438})_{x,t}$$`
+
+---
+# Research Methods - Variables
+
++ __Cycle time of technologies__ measures the time lags between the application (or granted) years of citing and cited patents or the time span between predecessors and successors (Jaffe and Trajtenberg 2002). A long cycle time indicates a high significance of old knowledge and a great need to study it from the point of view of latecomers. In a country-level analysis, this variable is the average of technological cycles shown in citations made by patents assigned to a corresponding country. 
+
+This study uses grant years in calculating mean backward citation lags. After calculating the average backward lags, they are transformed to a relative cycle time, which is defined as:
+`$$\frac{cycle \ time_{A,t}}{\overline{cycle \ time}_{patent \ class,t}}$$`
+
+---
+# Results
+
+---
+# Key Findings
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
