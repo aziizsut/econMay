@@ -1,0 +1,44 @@
+---
+title: "Networks, Geography, and the Survival of the Firm"
+subtitle: "Economic Group Meeting - May 2019 <html><div style='float:left'></div><hr color='#DC143C' size=2px width=750px></html> "  
+author: 
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["tue.css", "tue.css", "rutgers-fonts"]
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+library(xaringanthemer)
+mono_light(
+  base_color = "#1c5253",
+  header_font_google = google_font("Josefin Sans"),
+  text_font_google   = google_font("Montserrat", "300", "300i"),
+  code_font_google   = google_font("Droid Mono")
+)
+
+```
+# Discussion Materials
+
+--
+.pull-left[
+__Sort of__ update on the classic 1992 Evolutinary Economics Book by Nelson and Winter
+!["Nelson, et.al(2019)"](https://target.scene7.com/is/image/Target/GUEST_207d7d27-4d15-4079-a391-5667b030482e?wid=488&hei=488&fmt=pjpeg)
+]
+
+--
+
+.pull-right[
+Our __main paper__ to discuss for this meeting
+
+![Network, Geography and the Survival of the firm](https://i.ibb.co/QHzWgn9/paper.png)
+]
+---
+# Motivation for Paper Discussion
+
+--
+1.  The paper discuss the usage of Network 
