@@ -6,7 +6,7 @@ date: '`r Sys.Date()`'
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["tue.css", "tue.css", "rutgers-fonts"]
+    css: ["tue.css", "tue.css", "tue-fonts.css"]
     nature:
       highlightStyle: github
       highlightLines: true
@@ -48,19 +48,48 @@ This is a nice paper that discuss the correlation between National Innovation Sy
 
 3.  I think there are potential avenues to __connect__ it with the Sustainability transition and Development studies which are also compelling for many of us
 
-4.  It discuss the merit of Hidalgo and Haussman ECI 
+4.  It discuss the merit of Hidalgo and Haussman ECI <img src="https://media.giphy.com/media/XZ0yPco3eynUAGU0i3/giphy.gif" alt="Kitten"
+	title="A cute kitten" width="150" height="100" />
 
 5.  It also links quite well with the new Edition of the Evolutionary Economics book (especially __chapter 5 and 6__)
 
 ---
+class: justify
 # Paper Introduction
 
++ __Schumpeterian literature on economic growth has
+explored technological capabilities__ ([Fagerberg 1987](https://www.sciencedirect.com/science/article/pii/0048733387900254), [1988](https://academic.oup.com/ej/article-abstract/98/391/355/5190543); [Dosi et al. 1990](https://ideas.repec.org/b/ssa/lembks/dosietal-1990.html);
+[Verspagen 1991](https://dspace3-labs.atmire.com/bitstream/handle/123456789/6800/file14429.pdf?..); [Furman et al. 2002](https://www.sciencedirect.com/science/article/pii/S0048733301001524)). In Schumpeterian economics, strong economic
+growth is considered to prevail in countries with an effective “innovation system”
 
++ The focus on innovation as the driving force of economic growth was subsequently absorbed by
+the so-called new growth theory in the neo-classical school 
 
++ [Lundvall (1992)](https://books.google.nl/books?hl=en&lr=&id=20qCC6MmYgcC&oi=fnd&pg=PR13&ots=QBlxQ2t3K5&sig=95GCmIjXe_3pc0L0YHbqe1xmp-s&redir_esc=y#v=onepage&q&f=false) defined national innovation systems
+(NIS) as __“elements and relationships which interact in the production, diffusion and use
+of new and economically useful knowledge.”__ Therefore, NIS is about efficiency in
+production, diffusion, and use of knowledge. 
+
++ Empirical studies on the relationship
+between innovation systems and economic growth have been flourishing since the
+2000s. Previous studies have considered and measured various factors and dimensions of
+NIS, including techno-economic or socio-institutional dimensions and ICT-related
+infrastructures.
+---
+# Paper Introduction
+
++ Previous researches explored the sources of catching-up growth by east Asian economies and showed that these economies specialize in short-cycle technology-based sectors, such as
+information technology (IT), which makes sense because these sectors are where
+frontier technologies frequently change and soon become outdated. entry barriers are faced by latecomers from Asia who are approaching the technological frontier.
+
++ This study also compares the impacts of the NIS index on growth to those of the economic complexity index (ECI) developed by Hidalgo in his joint work, specifically, [Hausmann et al.(2011)](https://atlas.media.mit.edu/static/pdf/atlas/AtlasOfEconomicComplexity_Part_I.pdf). ECI attempts to measure the amount of productive knowledge that each country
+holds from trade data. ECI has a positive effect on economic growth. 
+
+<ru-blockquote> The main objective of this paper is _to find the impact of the NIS to the Economic Growth._ It also tries to find which NIS components contribute more to the Economic Growth</blockquote>  
 ---
 # Research Methods - Variables
 
-The __five__ NIS variables are those that were identified and used in the country-panel analysis of Lee (2013), and several of them have been previously introduced in early studies, such as those of Jaffe et al. (1993), Trajtenberg et al. (1997), and Hall et al. (2001). 
+The __five__ NIS variables are those that were identified and used in the country-panel analysis of [Lee (2013)](https://books.google.nl/books?hl=en&lr=&id=Qbr1AAAAQBAJ&oi=fnd&pg=PR10&ots=41zTcixwZI&sig=geDVmODjTkU59VXoiiPgM7to9yU&redir_esc=y#v=onepage&q&f=false), and several of them have been previously introduced in early studies, such as those of [Jaffe et al. (1993)](https://academic.oup.com/qje/article-abstract/108/3/577/1881813), [Trajtenberg et al. (1997)](https://www.tandfonline.com/doi/abs/10.1080/10438599700000006), and [Hall et al. (2001)](https://www.nber.org/papers/w8498). 
 
 + __Localization of knowledge creation and diffusion__ this study measures the degree of localization of knowledge creation and diffusion in a country by considering the difference between the probability of one country’s patents citing its own patents and the probability of the rest of the world’s patents citing that country’s patents. 
 
@@ -88,23 +117,81 @@ where $k$ is the technological sector (especially US patent classification), $Nc
 ---
 # Research Methods - Variables
 
-+ __Technological diversification__ measures how many diverse fields of technologies a country files patents on. Following Lee (2013), we define this variable as the ratio in percentage of the number ($N$ in the following formula) of technological classes, $i$, in which a country $x$ has registered patents to a number in year $t$, __438__, which is the number of three-digit classes in the US patent classification system until 2016.
++ __Technological diversification__ measures how many diverse fields of technologies a country files patents on. Following  [Lee (2013)](https://books.google.nl/books?hl=en&lr=&id=Qbr1AAAAQBAJ&oi=fnd&pg=PR10&ots=41zTcixwZI&sig=geDVmODjTkU59VXoiiPgM7to9yU&redir_esc=y#v=onepage&q&f=false), we define this variable as the ratio in percentage of the number ( $N$ in the following formula) of technological classes, $i$, in which a country $x$ has registered patents to a number in year $t$, __438__, which is the number of three-digit classes in the US patent classification system until 2016.
 
 $$Diversification_{x,t} = (\frac{N_i}{438})_{x,t}$$
 
 ---
 # Research Methods - Variables
 
-+ __Cycle time of technologies__ measures the time lags between the application (or granted) years of citing and cited patents or the time span between predecessors and successors (Jaffe and Trajtenberg 2002). A long cycle time indicates a high significance of old knowledge and a great need to study it from the point of view of latecomers. In a country-level analysis, this variable is the average of technological cycles shown in citations made by patents assigned to a corresponding country. 
++ __Cycle time of technologies__ measures the time lags between the application (or granted) years of citing and cited patents or the time span between predecessors and successors ([Jaffe and Trajtenberg 2002](https://mitpress.mit.edu/books/patents-citations-and-innovations)). A long cycle time indicates a high significance of old knowledge and a great need to study it from the point of view of latecomers. In a country-level analysis, this variable is the average of technological cycles shown in citations made by patents assigned to a corresponding country. 
 
 This study uses grant years in calculating mean backward citation lags. After calculating the average backward lags, they are transformed to a relative cycle time, which is defined as:
 $$\frac{cycle \ time_{A,t}}{\overline{cycle \ time}_{patent \ class,t}}$$
 
 ---
-# Results
+# Independent Variables Selection
+
+six different combinations are used in making an NIS composite index as follows __(“S” means the standardized values of NIS sub-components)__:
+
+1.  NIS3a=S_Originality+S_Relative cycle time+S_Diversification
+
+2.  NIS3b=S_Originality+S_Relative cycle time+S_1−HHI
+
+3.  NIS3c=S_Relative cycle time+S_1−HHI+S_Localization
+ 
+4.  NIS4a=S_Originality+S_Relative cycle time+S_1−HHI+S_Diversification
+
+5.  NIS4b=S_Originality+S_Relative cycle time+S_1−HHI+S_Localization
+ 
+6.  NIS5=S_Originality+S_Relative cycle time + S_1−HHI+S_Diversification + S_Localization
 
 ---
-# Key Findings
+# Model Specification and Results
+
+The estimation method generally used to analyze the growth equation is the panel __fixed effect (FE) or panel random effect (RE) model__. By conducting the Hausmann test, we select the suitable model between these two models, that is, __FE estimation__.
 
 
+$${\mathrm{GR}}_{\mathrm{i},\mathrm{t}}={\alpha}_{\mathrm{i}}+\beta {\mathrm{logGDP}}_{\mathrm{i},\mathrm{t}}+\gamma {\mathrm{X}}_{\mathrm{i},\mathrm{t}}+\delta {\mathrm{Z}}_{\mathrm{i},\mathrm{t}}+{\mu}_{i,t}+{\epsilon}_{\mathrm{i},\mathrm{t}}$$
+_Where:_
++ $i$ is the country and $t$ is the time period.
++ $GR_{i,t}$ is the growth rate of GDP per capita at ta certain time period
++ $logGDP_{i,t}$ is the logarithm of initial GDP per capita in each period
++ $X_{i,t}$ is a set of conventional control variables, such as _population growth rate_, _ratio of fixed investment to GDP_, and _enrollment rates of secondary education_
++ $Z_{i,t}$ is the variable of interest (NIS index). 
++ $μ_{i,t}$ is the unobserved time-invariant individual effect
++ $ε_{i,t}$ is the error term
+
+---
+# Model Results - FE
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(tidyverse)
+library(kableExtra)
+dset <- read_delim("convert.csv", ";")
+dset <- dset %>% 
+  rename(variables = X1) %>% 
+  mutate(variables = ifelse(is.na(variables), "", variables)) %>% 
+  mutate_at(c("(1)Base","(2)NIS3a", "(3)NIS3b", "(4)NIS3c", "(5)NIS4a", "(6)NIS4b", "(7)NIS5"), seting)
+kable(dset) %>% 
+  kable_styling(bootstrap_options = c("striped", "hover"), full_width = FALSE, position = "left", font_size = 13) %>% 
+  column_spec(1, bold = TRUE) %>% 
+  scroll_box(width = "100%", height = "500px")
+
+```
+
+---
+# Key Findings and Conclusion
+
++ The growth regressions in general confirmed the significant and robust impacts of __NIS3a, NIS4a, and NIS5__ indices on economic growth.
++ The three NIS indices are similar in terms of explanatory power (or additional $R^2$), which implies that adding one or more component variables to make NIS6 or NIS7 does not make any difference<sup>1</sup>. 
++ The common feature of the three NIS indices is that they have the three component variables as their ingredients, namely: __originality, cycle time, and technological diversification__<sup>2</sup>. 
++ ECI __robustness is somewhat questionable__ because it loses significance after adding government expenditure and terms of trade variables into the regression models. 
++ The results confirmed __the overall importance of NIS in economic growth and justify the policy effort to improve NIS__. The findings suggest that the simple NIS index constructed using US patent data is as powerful as other indices in reflecting diverse, complicated, or nuanced aspects of NIS.
+
+.footnote[
+1.  __critique__: needs to be proven with AIC or BIC at least
+2.  __critique__: again further statistical test needed
+]
 

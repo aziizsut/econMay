@@ -4,9 +4,11 @@
     <title>National Innovation Systems, Economic Complexity, and Economic Growth</title>
     <meta charset="utf-8" />
     <meta name="author" content="" />
-    <meta name="date" content="2019-05-23" />
-    <link href="libs/remark-css-0.0.1/rutgers-fonts.css" rel="stylesheet" />
+    <meta name="date" content="2019-05-24" />
+    <script src="libs/kePrint-0.0.1/kePrint.js"></script>
     <link rel="stylesheet" href="tue.css" type="text/css" />
+    <link rel="stylesheet" href="tue.css" type="text/css" />
+    <link rel="stylesheet" href="tue-fonts.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
@@ -20,7 +22,7 @@ class: center, middle, inverse, title-slide
 </div>
 <hr color='#DC143C' size=2px width=750px>
 </html>
-### 2019-05-23
+### 2019-05-24
 
 ---
 
@@ -52,19 +54,48 @@ This is a nice paper that discuss the correlation between National Innovation Sy
 
 3.  I think there are potential avenues to __connect__ it with the Sustainability transition and Development studies which are also compelling for many of us
 
-4.  It discuss the merit of Hidalgo and Haussman ECI 
+4.  It discuss the merit of Hidalgo and Haussman ECI &lt;img src="https://media.giphy.com/media/XZ0yPco3eynUAGU0i3/giphy.gif" alt="Kitten"
+	title="A cute kitten" width="150" height="100" /&gt;
 
 5.  It also links quite well with the new Edition of the Evolutionary Economics book (especially __chapter 5 and 6__)
 
 ---
+class: justify
 # Paper Introduction
 
++ __Schumpeterian literature on economic growth has
+explored technological capabilities__ ([Fagerberg 1987](https://www.sciencedirect.com/science/article/pii/0048733387900254), [1988](https://academic.oup.com/ej/article-abstract/98/391/355/5190543); [Dosi et al. 1990](https://ideas.repec.org/b/ssa/lembks/dosietal-1990.html);
+[Verspagen 1991](https://dspace3-labs.atmire.com/bitstream/handle/123456789/6800/file14429.pdf?..); [Furman et al. 2002](https://www.sciencedirect.com/science/article/pii/S0048733301001524)). In Schumpeterian economics, strong economic
+growth is considered to prevail in countries with an effective “innovation system”
 
++ The focus on innovation as the driving force of economic growth was subsequently absorbed by
+the so-called new growth theory in the neo-classical school 
 
++ [Lundvall (1992)](https://books.google.nl/books?hl=en&amp;lr=&amp;id=20qCC6MmYgcC&amp;oi=fnd&amp;pg=PR13&amp;ots=QBlxQ2t3K5&amp;sig=95GCmIjXe_3pc0L0YHbqe1xmp-s&amp;redir_esc=y#v=onepage&amp;q&amp;f=false) defined national innovation systems
+(NIS) as __“elements and relationships which interact in the production, diffusion and use
+of new and economically useful knowledge.”__ Therefore, NIS is about efficiency in
+production, diffusion, and use of knowledge. 
+
++ Empirical studies on the relationship
+between innovation systems and economic growth have been flourishing since the
+2000s. Previous studies have considered and measured various factors and dimensions of
+NIS, including techno-economic or socio-institutional dimensions and ICT-related
+infrastructures.
+---
+# Paper Introduction
+
++ Previous researches explored the sources of catching-up growth by east Asian economies and showed that these economies specialize in short-cycle technology-based sectors, such as
+information technology (IT), which makes sense because these sectors are where
+frontier technologies frequently change and soon become outdated. entry barriers are faced by latecomers from Asia who are approaching the technological frontier.
+
++ This study also compares the impacts of the NIS index on growth to those of the economic complexity index (ECI) developed by Hidalgo in his joint work, specifically, [Hausmann et al.(2011)](https://atlas.media.mit.edu/static/pdf/atlas/AtlasOfEconomicComplexity_Part_I.pdf). ECI attempts to measure the amount of productive knowledge that each country
+holds from trade data. ECI has a positive effect on economic growth. 
+
+&lt;ru-blockquote&gt; The main objective of this paper is _to find the impact of the NIS to the Economic Growth._ It also tries to find which NIS components contribute more to the Economic Growth&lt;/blockquote&gt;  
 ---
 # Research Methods - Variables
 
-The __five__ NIS variables are those that were identified and used in the country-panel analysis of Lee (2013), and several of them have been previously introduced in early studies, such as those of Jaffe et al. (1993), Trajtenberg et al. (1997), and Hall et al. (2001). 
+The __five__ NIS variables are those that were identified and used in the country-panel analysis of [Lee (2013)](https://books.google.nl/books?hl=en&amp;lr=&amp;id=Qbr1AAAAQBAJ&amp;oi=fnd&amp;pg=PR10&amp;ots=41zTcixwZI&amp;sig=geDVmODjTkU59VXoiiPgM7to9yU&amp;redir_esc=y#v=onepage&amp;q&amp;f=false), and several of them have been previously introduced in early studies, such as those of [Jaffe et al. (1993)](https://academic.oup.com/qje/article-abstract/108/3/577/1881813), [Trajtenberg et al. (1997)](https://www.tandfonline.com/doi/abs/10.1080/10438599700000006), and [Hall et al. (2001)](https://www.nber.org/papers/w8498). 
 
 + __Localization of knowledge creation and diffusion__ this study measures the degree of localization of knowledge creation and diffusion in a country by considering the difference between the probability of one country’s patents citing its own patents and the probability of the rest of the world’s patents citing that country’s patents. 
 
@@ -92,23 +123,394 @@ where `\(k\)` is the technological sector (especially US patent classification),
 ---
 # Research Methods - Variables
 
-+ __Technological diversification__ measures how many diverse fields of technologies a country files patents on. Following Lee (2013), we define this variable as the ratio in percentage of the number ($N$ in the following formula) of technological classes, `\(i\)`, in which a country `\(x\)` has registered patents to a number in year `\(t\)`, __438__, which is the number of three-digit classes in the US patent classification system until 2016.
++ __Technological diversification__ measures how many diverse fields of technologies a country files patents on. Following  [Lee (2013)](https://books.google.nl/books?hl=en&amp;lr=&amp;id=Qbr1AAAAQBAJ&amp;oi=fnd&amp;pg=PR10&amp;ots=41zTcixwZI&amp;sig=geDVmODjTkU59VXoiiPgM7to9yU&amp;redir_esc=y#v=onepage&amp;q&amp;f=false), we define this variable as the ratio in percentage of the number ( `\(N\)` in the following formula) of technological classes, `\(i\)`, in which a country `\(x\)` has registered patents to a number in year `\(t\)`, __438__, which is the number of three-digit classes in the US patent classification system until 2016.
 
 `$$Diversification_{x,t} = (\frac{N_i}{438})_{x,t}$$`
 
 ---
 # Research Methods - Variables
 
-+ __Cycle time of technologies__ measures the time lags between the application (or granted) years of citing and cited patents or the time span between predecessors and successors (Jaffe and Trajtenberg 2002). A long cycle time indicates a high significance of old knowledge and a great need to study it from the point of view of latecomers. In a country-level analysis, this variable is the average of technological cycles shown in citations made by patents assigned to a corresponding country. 
++ __Cycle time of technologies__ measures the time lags between the application (or granted) years of citing and cited patents or the time span between predecessors and successors ([Jaffe and Trajtenberg 2002](https://mitpress.mit.edu/books/patents-citations-and-innovations)). A long cycle time indicates a high significance of old knowledge and a great need to study it from the point of view of latecomers. In a country-level analysis, this variable is the average of technological cycles shown in citations made by patents assigned to a corresponding country. 
 
 This study uses grant years in calculating mean backward citation lags. After calculating the average backward lags, they are transformed to a relative cycle time, which is defined as:
 `$$\frac{cycle \ time_{A,t}}{\overline{cycle \ time}_{patent \ class,t}}$$`
 
 ---
-# Results
+# Independent Variables Selection
+
+six different combinations are used in making an NIS composite index as follows __(“S” means the standardized values of NIS sub-components)__:
+
+1.  NIS3a=S_Originality+S_Relative cycle time+S_Diversification
+
+2.  NIS3b=S_Originality+S_Relative cycle time+S_1−HHI
+
+3.  NIS3c=S_Relative cycle time+S_1−HHI+S_Localization
+ 
+4.  NIS4a=S_Originality+S_Relative cycle time+S_1−HHI+S_Diversification
+
+5.  NIS4b=S_Originality+S_Relative cycle time+S_1−HHI+S_Localization
+ 
+6.  NIS5=S_Originality+S_Relative cycle time + S_1−HHI+S_Diversification + S_Localization
 
 ---
-# Key Findings
+# Model Specification and Results
+
+The estimation method generally used to analyze the growth equation is the panel __fixed effect (FE) or panel random effect (RE) model__. By conducting the Hausmann test, we select the suitable model between these two models, that is, __FE estimation__.
+
+
+`$${\mathrm{GR}}_{\mathrm{i},\mathrm{t}}={\alpha}_{\mathrm{i}}+\beta {\mathrm{logGDP}}_{\mathrm{i},\mathrm{t}}+\gamma {\mathrm{X}}_{\mathrm{i},\mathrm{t}}+\delta {\mathrm{Z}}_{\mathrm{i},\mathrm{t}}+{\mu}_{i,t}+{\epsilon}_{\mathrm{i},\mathrm{t}}$$`
+_Where:_
++ `\(i\)` is the country and `\(t\)` is the time period.
++ `\(GR_{i,t}\)` is the growth rate of GDP per capita at ta certain time period
++ `\(logGDP_{i,t}\)` is the logarithm of initial GDP per capita in each period
++ `\(X_{i,t}\)` is a set of conventional control variables, such as _population growth rate_, _ratio of fixed investment to GDP_, and _enrollment rates of secondary education_
++ `\(Z_{i,t}\)` is the variable of interest (NIS index). 
++ `\(μ_{i,t}\)` is the unobserved time-invariant individual effect
++ `\(ε_{i,t}\)` is the error term
+
+---
+# Model Results - FE
+
+&lt;div style="border: 1px solid #ddd; padding: 0px; overflow-y: scroll; height:500px; overflow-x: scroll; width:100%; "&gt;&lt;table class="table table-striped table-hover" style="font-size: 13px; width: auto !important; "&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; variables &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (1)Base &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (2)NIS3a &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (3)NIS3b &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (4)NIS3c &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (5)NIS4a &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (6)NIS4b &lt;/th&gt;
+   &lt;th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;"&gt; (7)NIS5 &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; L.GDP per Capita Growth &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.10 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.10 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.87) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.81) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.87) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.85) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.83) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.87) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−0.83) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; ln(Initial GDP) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.061*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.072*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.065*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.061*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.070*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.066*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.071*** &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−4.44) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−5.60) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−4.80) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−4.49) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−5.43) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−4.82) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−5.36) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; POP growth Rate &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.82* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.68* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.83* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.77* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.73* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.80* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.69* &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−1.88) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−1.87) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−2.01) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−2.01) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−1.93) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−1.99) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (−1.91) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Fixed Investment Rate &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.27*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.26*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.28*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.29*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.27*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.28*** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.27*** &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.79 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.81 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.88 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.94 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.85 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.93 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.92 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Secondary School Enrollment &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0046 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.018 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.011 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0046 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.013 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.013 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.014 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.31 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.11 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.69 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.32 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.83 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.77 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.89 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Democracy &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0037 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0029 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0034 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0034 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0032 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0034 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.0031 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.23 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.04 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.17 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.23 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.13 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.17 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Openness &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.050* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.041 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.047* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.054** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.043 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.050* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.046* &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.92 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.61 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.81 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.05 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.62 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.93 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.79 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; NIS3a &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.044** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.57 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; NIS3b &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; NIS3c &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.033* &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.71 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; NIS4a &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.032** &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.09 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; NIS4b &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.023 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -1.56 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; NIS5 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.031** &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -2.19 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; - &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; AR(2) z-statistics (p value) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.62 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.82 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.34 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1..16 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.63 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −1.18 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; −0.51 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.105 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.41 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.18 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.247 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.528 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.238 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.607 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; Hansen χ2 statistics (p value) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9.8 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9.28 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9.48 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9.27 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 8.77 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 9.3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 8.52 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 0.081 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.098 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.091 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.099 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.118 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.098 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; -0.13 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;font-weight: bold;"&gt; N &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; 126 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;&lt;/div&gt;
+
+---
+# Key Findings and Conclusion
+
++ The growth regressions in general confirmed the significant and robust impacts of __NIS3a, NIS4a, and NIS5__ indices on economic growth.
++ The three NIS indices are similar in terms of explanatory power (or additional `\(R^2\)`), which implies that adding one or more component variables to make NIS6 or NIS7 does not make any difference&lt;sup&gt;1&lt;/sup&gt;. 
++ The common feature of the three NIS indices is that they have the three component variables as their ingredients, namely: __originality, cycle time, and technological diversification__&lt;sup&gt;2&lt;/sup&gt;. 
++ ECI __robustness is somewhat questionable__ because it loses significance after adding government expenditure and terms of trade variables into the regression models. 
++ The results confirmed __the overall importance of NIS in economic growth and justify the policy effort to improve NIS__. The findings suggest that the simple NIS index constructed using US patent data is as powerful as other indices in reflecting diverse, complicated, or nuanced aspects of NIS.
+
+.footnote[
+1.  __critique__: needs to be proven with AIC or BIC at least
+2.  __critique__: again further statistical test needed
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
